@@ -1,0 +1,13 @@
+<Configuration>
+  <VGpu>Enable</VGpu>
+  <Networking>Enable</Networking>
+  <AudioInput>Disable</AudioInput>
+  <VideoInput>Disable</VideoInput>
+  <ProtectedClient>Enable</ProtectedClient>
+  <PrinterRedirection>Disable</PrinterRedirection>
+  <ClipboardRedirection>Disable</ClipboardRedirection>
+  <MemoryInMB>8192</MemoryInMB>
+  <LogonCommand>
+    <Command>powershell.exe irm 'https://raw.githubusercontent.com/alex-bv/shell-toolbox/master/windows-privacy.ps1' | iex</Command>
+  </LogonCommand>
+</Configuration>
